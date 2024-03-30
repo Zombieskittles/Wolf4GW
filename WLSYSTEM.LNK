@@ -1,0 +1,7 @@
+system begin dos4g
+    option osname='DOS/4G'
+    libpath lib386
+    libpath lib386/dos
+    op stub=wstub.exe
+    format os2 le
+end
